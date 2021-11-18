@@ -1,24 +1,67 @@
-.top{
-  padding-top: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.bottom{
-  padding-top: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.card-body{
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+.App {
   text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 5px;
-  padding-bottom: 40px;
+  background-color: rgb(36,153,247);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-radius: 30px;
+  margin: 20px;
 }
-.head{
-  font-size: 25px;
+
+.First{
+
+  /* height: 75%;
+  width: 33%; */
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  color: gray;
+  border-radius: 30px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+
 }
-.price{
-  color: grey;
+.border{
+  border-bottom: solid black;
+  
+}
+.more{
+  font-size: 1cm;
+  color: black;
+}
+.less{
+  color: black;
+  font-size: 0.5cm;
+}
+.content{
+  padding-left: 25px;
+  padding-right: 25px;
+  color: black;
+  text-align: start;
+}
+.light{
+  color: gray;
+}
+.button{
+  border-radius: 35px;
+  background-color: rgb(9, 133, 216);
+  color: white;
+  text-align: center;
+  width: 350px;
+  height: 50px;
+  font-size: 0.8cm;
+  text-transform: uppercase;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+}
+.button:hover{
+  background-color: rgba(7, 78, 170, 0.842);
+}
+.bold{
+  font-weight: bold;
 }
